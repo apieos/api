@@ -1,0 +1,48 @@
+{
+  "errno": 0,
+  "errmsg": "Success",
+  "data": {
+    "creator": "gu4tiojthage",
+    "create_timestamp": "2018-06-18T11:38:53.000",
+    "permissions": [
+      {
+        "perm_name": "active",
+        "parent": "owner",
+        "required_auth": {
+          "threshold": 1,
+          "keys": [
+            {
+              "key": "EOS73PVFDg8QGZvAWnMe4DxodKqzneCD1ouwQefej9J6yehFuSa8z",
+              "weight": 1
+            }
+          ],
+          "accounts": [
+            {
+              "permission": {
+                "actor": "helloworldjs",
+                "permission": "eosio.code"
+              },
+              "weight": 1
+            }
+          ],
+          "waits": []
+        }
+      },
+      {
+        "perm_name": "owner",
+        "parent": "",
+        "required_auth": {
+          "threshold": 1,
+          "keys": [
+            {
+              "key": "EOS73PVFDg8QGZvAWnMe4DxodKqzneCD1ouwQefej9J6yehFuSa8z",
+              "weight": 1
+            }
+          ],
+          "accounts": [],
+          "waits": []
+        }
+      }
+    ]
+  }
+}
